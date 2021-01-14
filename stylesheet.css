@@ -19,21 +19,74 @@ a{
   color: white;
   padding-top: 180px;
   padding-bottom: 100px;
+  z-index: 1;
 }
 
 .isi-main{
   background-color: #4b4b4b;
   opacity: 0.5;
-  max-width: 650px;
+  max-width: 500px;
+  height: 150px;
   margin: 0 auto;
-  border-radius: 2px solid #4b4b4b;
+  animation-name: kelip;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  border-radius: 10px;
+  border-style: double;
 }
+
+@keyframes kelip {
+  0%   {background-color:#4b4b4b;}
+  25%  {background-color:red;}
+  50%  {background-color:orange;}
+  75%  {background-color:green;}
+  100% {background-color:#4b4b4b;}
+}
+
 .container h1{
   text-align: center;
   opacity: 0.9;
+  padding-top: 5px;
 }
 
 .container h2{
   text-align: center;
   opacity: 0.9;
+  padding border-bottom: 10px;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  z-index: 10;
+  position: fixed;
+}
+
+span{
+  color: #3ae374;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo{
+  padding: 15px 0;
+  color: white;
+  font-size: 15px;
+  font-family: "courier new";
+  font-weight: bold;
+  float: left;
+}
+
+.list{
+  display: block;
+  float: right;
+  color: white;
+}
+
+li{
+  list-style: none;
+  float: left;
+  padding-left: 35px;
 }
