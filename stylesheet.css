@@ -109,10 +109,10 @@ header {
   background-color: rgba(34, 49, 52, 0.9);
 }
 
-
 .profile h2{
   text-align: left;
 }
+
 .teams{
   display: flex;
   flex-wrap:wrap;
@@ -122,23 +122,29 @@ header {
 .list-team{
   margin: 10px;
 }
+
 .list-team img{
-  width: 300x;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background: #dac52c;
   border-radius: 100%;
+  object-fit: cover;
+  border: solid #21c7ed;
 }
+
 .list-team img:hover{
-  width: 280x;
-  height: 280px;
+  width: 195px;
+  height: 195px;
 }
 
 .join{
 clear: both;
 }
+
 .join h2{
   text-align: left;
 }
+
 .join span{
   font-size: small;
   font-weight: lighter;
@@ -147,7 +153,7 @@ clear: both;
 .form{
   margin: 0 auto;
   max-width: 500px;
-  height: 180px;
+  height: 350px;
   text-align: left;
 }
 
@@ -179,4 +185,20 @@ button{
   0% { background-color: #0091b2; box-shadow: 0 0 3px #0091b2; }
   50% { background-color: #21c7ed; box-shadow: 0 0 15px #21c7ed; }
   100% { background-color: #0091b2; box-shadow: 0 0 3px #0091b2; }
+}
+
+footer{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.7);
+}
+
+.footer-kanan{
+  text-align: right;
+  color: white;
+}
+
+.footer-kanan li{
+  list-style: none;
+  font-size: 13px;
 }
