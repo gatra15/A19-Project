@@ -1,0 +1,21 @@
+@media all and (max-width: 1170px) {
+  .profile {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .profile {
+    width: 100%;
+}
+.profile h2{
+ text-align: center;
+}
+.list-team {
+ width: 100%;
+}
+.join h2{
+   text-align: center;
+  }
+}
